@@ -33,23 +33,27 @@ sudo apt install nginx -y
 sudo systemctl start nginx
 sudo systemctl enable nginx
 
+```
 ### 3️⃣ Deploy Hello World Page
 ```bash
 sudo nano /var/www/html/index.nginx-debian.html
 
 <h1>Hello World from Ubuntu Nginx Web Server</h1>
+```
 
 ### ✅ Verification
 
 Access the application using:
 ```bash
 http://<EC2-PUBLIC-IP>
+```
 
 ### 📷 Screenshots
 
 EC2 Instance running
 
 Hello World page
+
 
 🎯 Outcome
 
